@@ -27,7 +27,7 @@ function ChatRoom() {
     useEffect(()=>{
 
         const ws = new WebSocket(
-            `ws://127.0.0.1:8000/ws/${currentUserId}`
+            `ws://https://chatsphere-one-to-one-chatting-app.onrender.com/ws/${currentUserId}`
         );
 
         ws.onopen=()=>{
