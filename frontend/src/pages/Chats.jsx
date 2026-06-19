@@ -73,7 +73,7 @@ function Chats() {
 
         const ws=
         new WebSocket(
-            `ws://https://chatsphere-one-to-one-chatting-app.onrender.com/ws/${userId}`
+            `ws://chatsphere-one-to-one-chatting-app.onrender.com/ws/${userId}`
         );
 
         ws.onmessage=(event)=>{
