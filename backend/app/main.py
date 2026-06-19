@@ -19,8 +19,8 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173"
-        "https://chatsphere-one-to-one-chatting-app-project-gshn0lty2.vercel.app"
+        "http://localhost:5173",
+        "https://chatsphere-one-to-one-chatting-app-vert.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
