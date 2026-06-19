@@ -1,3 +1,3 @@
-from backend.app.models.user import User
-from backend.app.models.message import Message
+from app.models.user import User
+from app.models.message import Message
 
