@@ -20,7 +20,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173"
-        "https://chat-sphere-one-to-one-chatting-dgsakqm6k.vercel.app"
+        "https://chatsphere-one-to-one-chatting-app-vert.vercel.app/"
     ],
     allow_credentials=True,
     allow_methods=["*"],
