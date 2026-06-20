@@ -41,7 +41,7 @@ function Login() {
 
             alert("Login Successful");
 
-            navigate("/chats");
+            navigate("/");
 
         } catch (error) {
 
