@@ -71,9 +71,9 @@ function Chats() {
 
         if(!userId) return;
 
-        const ws=
+        const ws =
         new WebSocket(
-            `ws://chatsphere-one-to-one-chatting-app.onrender.com/ws/${userId}`
+            `wss://chatsphere-one-to-one-chatting-app.onrender.com/ws/${userId}`
         );
 
         ws.onmessage=(event)=>{
